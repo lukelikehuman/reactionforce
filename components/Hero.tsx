@@ -11,18 +11,10 @@ const Hero: React.FC = () => {
     <header className="relative h-screen min-h-[600px] flex items-center justify-center bg-gray-900 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        {/* 
-           Note: Please rename your uploaded image to 'gym-hero.jpg' and place it in the public folder.
-           The object-cover and object-center classes ensure appropriate cropping on all devices.
-        */}
         <img 
-          src="/gym-hero.jpg" 
+          src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
           alt="反作用力訓練空間環境" 
           className="w-full h-full object-cover object-center opacity-50"
-          onError={(e) => {
-            // Fallback to the original Unsplash image if the local file hasn't been added yet
-            e.currentTarget.src = "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80";
-          }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
       </div>
