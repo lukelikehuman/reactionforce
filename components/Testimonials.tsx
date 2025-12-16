@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
             <div className="grid grid-cols-2 gap-0.5">
               <div className="relative h-64 bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="訓練前" 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-500" 
                 />
@@ -23,7 +23,7 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="relative h-64 bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="訓練後" 
                   className="w-full h-full object-cover" 
                 />
@@ -42,7 +42,7 @@ const Testimonials: React.FC = () => {
             <div className="grid grid-cols-2 gap-0.5">
               <div className="relative h-64 bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="訓練前" 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition duration-500" 
                 />
@@ -50,7 +50,7 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="relative h-64 bg-gray-200">
                 <img 
-                  src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1609899537878-39d6a78b06c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="訓練後" 
                   className="w-full h-full object-cover" 
                 />

@@ -12,9 +12,10 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+          src="https://drive.google.com/thumbnail?id=14KxgVOzNhsCTH3LKVQJwZCm-riYKNjyt&sz=w2560" 
           alt="反作用力訓練空間環境" 
           className="w-full h-full object-cover object-center opacity-50"
+          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
       </div>
